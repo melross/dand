@@ -206,6 +206,7 @@
             </constraints>
             <properties>
               <model>
+                <item value="None"/>
                 <item value="Barbarian"/>
                 <item value="Bard"/>
                 <item value="Cleric"/>
@@ -286,7 +287,7 @@
               <text value="Level:"/>
             </properties>
           </component>
-          <component id="2304c" class="javax.swing.JSpinner" binding="levelSpinner" default-binding="true">
+          <component id="2304c" class="javax.swing.JSpinner" binding="levelSpinner1">
             <constraints>
               <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="86" height="26"/>
@@ -294,7 +295,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="97e71" class="javax.swing.JSpinner" binding="levelSpinner2" default-binding="true">
+          <component id="97e71" class="javax.swing.JSpinner" binding="levelSpinner" default-binding="true">
             <constraints>
               <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="86" height="26"/>
@@ -302,7 +303,7 @@
             </constraints>
             <properties/>
           </component>
-          <component id="d13bf" class="javax.swing.JSpinner" binding="levelSpinner1" default-binding="true">
+          <component id="d13bf" class="javax.swing.JSpinner" binding="levelSpinner3">
             <constraints>
               <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="86" height="26"/>
@@ -423,6 +424,22 @@
             </constraints>
             <properties>
               <text value="Health Overide?"/>
+            </properties>
+          </component>
+          <component id="ada90" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Total Level"/>
+            </properties>
+          </component>
+          <component id="73059" class="javax.swing.JLabel" binding="totalLeverDisplay">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Label"/>
             </properties>
           </component>
         </children>

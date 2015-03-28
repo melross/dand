@@ -37,6 +37,7 @@ public class formOne {
     private JLabel Class;
 
     public formOne() {
+        npcTracker npcTrack = new npcTracker();
         newCharacterButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String[] wontBeUsed = new String[1];

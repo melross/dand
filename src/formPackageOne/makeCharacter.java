@@ -12,9 +12,9 @@ public class makeCharacter extends JDialog {
     private JComboBox raceComboBox;
     private JProgressBar completionTracker;
     private JComboBox class1ComboBox;
-    private JSpinner levelSpinner;
-    private JSpinner levelSpinner2;
     private JSpinner levelSpinner1;
+    private JSpinner levelSpinner;
+    private JSpinner levelSpinner3;
     private JSpinner strengthSpinner;
     private JSpinner dexeritySpinner;
     private JSpinner constitutionSpinner;
@@ -23,6 +23,8 @@ public class makeCharacter extends JDialog {
     private JSpinner charismaSpinner;
     private JLabel healthAmount;
     private JCheckBox healthOverideCheckBox;
+    private JLabel totalLeverDisplay;
+    private String name;
 
     public makeCharacter() {
         setContentPane(contentPane);
@@ -57,9 +59,22 @@ public class makeCharacter extends JDialog {
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
 
+
+    public void actionPerformed(ActionEvent e) {
+        name = characterNameTextField.getText();
+    }
+
     private void onOK() {
-// add your code here
-       // Npc
+        int str = (Integer) strengthSpinner.getValue();
+        int dex = (Integer) dexeritySpinner.getValue();
+        int con = (Integer) constitutionSpinner.getValue();
+        int inte = (Integer) intelligenceSpinner.getValue();
+        int wis = (Integer) wisdomSpinner.getValue();
+        int cha = (Integer) charismaSpinner.getValue();
+        int[] abilityScores = {str, dex, con, inte, wis, cha};
+        int levelOne= (Integer) levelSpinner1.getValue();
+        Class  classOne = (Class) class1ComboBox.getSelectedItem();
+        Npc characterNameTextField = new Npc(name, classOne, levelOne, abilityScores);
     }
 
     private void onCancel() {

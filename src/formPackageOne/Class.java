@@ -16,4 +16,21 @@ public class Class {
         saveProfOne = 1;
         saveProfTwo = 2;
     }
+
+    public int getHitDie() {
+        return hitDie;
+    }
+
+    public int getSaveProfTwo() {
+        return saveProfTwo;
+    }
+
+    public int getSaveProfOne() {
+
+        return saveProfOne;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
