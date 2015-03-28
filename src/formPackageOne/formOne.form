@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="formPackageOne.formOne">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:18px:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:29px:noGrow"/>
+    <rowspec value="center:31px:noGrow"/>
+    <rowspec value="center:29px:noGrow"/>
+    <rowspec value="center:30px:noGrow"/>
+    <rowspec value="center:30px:noGrow"/>
+    <rowspec value="top:39dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:21dlu:noGrow"/>
+    <rowspec value="center:43px:noGrow"/>
+    <rowspec value="center:18px:noGrow"/>
+    <rowspec value="center:266px:grow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:33px:noGrow"/>
+    <colspec value="fill:268px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:212px:noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:187px:noGrow"/>
+    <constraints>
+      <xy x="20" y="20" width="825" height="743"/>
+    </constraints>
+    <properties>
+      <foreground color="-4521871"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7ba17" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <labelFor value="8a103"/>
+          <text value="N&amp;PC:"/>
+        </properties>
+      </component>
+      <grid id="f67e6" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <foreground color="-4516493"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="92271" class="javax.swing.JButton" binding="makeActiveButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font/>
+              <text value="&amp;Make Active"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="a35ac" class="javax.swing.JButton" binding="newCharacterButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font/>
+          <text value="&amp;New Character"/>
+        </properties>
+      </component>
+      <component id="82dd3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <labelFor value="83579"/>
+          <text value="M&amp;onsters"/>
+        </properties>
+      </component>
+      <component id="bf5ed" class="javax.swing.JButton" binding="newButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Ne&amp;w Monster"/>
+        </properties>
+      </component>
+      <component id="97122" class="javax.swing.JButton" binding="makeCopyButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Make Cop&amp;y"/>
+        </properties>
+      </component>
+      <scrollpane id="83579">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="254df" class="javax.swing.JList" binding="mOnstersList" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="c29e9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <labelFor value="c00c7"/>
+          <text value="Ac&amp;tive Characters:"/>
+        </properties>
+      </component>
+      <component id="78887" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Actions"/>
+        </properties>
+      </component>
+      <grid id="92e51" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="da7e7" class="javax.swing.JRadioButton" binding="damageHealRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&amp;Damage/Heal"/>
+        </properties>
+      </component>
+      <component id="a9d93" class="javax.swing.JRadioButton" binding="castSpellsRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&amp;Cast Spells"/>
+        </properties>
+      </component>
+      <component id="9927d" class="javax.swing.JRadioButton" binding="addRemoveStatusRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&amp;Add/Remove Status"/>
+        </properties>
+      </component>
+      <component id="e75a5" class="javax.swing.JRadioButton" binding="deleteCharacterRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="D&amp;elete Character"/>
+        </properties>
+      </component>
+      <component id="60500" class="javax.swing.JRadioButton" binding="saveCharacterRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="&amp;Save Character"/>
+        </properties>
+      </component>
+      <scrollpane id="8a103">
+        <constraints>
+          <grid row="1" column="0" row-span="7" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="61bac" class="javax.swing.JList" binding="nPCList">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="c00c7">
+        <constraints>
+          <grid row="1" column="2" row-span="12" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5adbf" class="javax.swing.JList" binding="acTiveCharactersList" default-binding="true">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5b21b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <labelFor value="bc1e0"/>
+          <text value="Active &amp;Function"/>
+        </properties>
+      </component>
+      <component id="44326" class="javax.swing.JButton" binding="okayButton" default-binding="true">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="O&amp;kay"/>
+        </properties>
+      </component>
+      <scrollpane id="bc1e0">
+        <constraints>
+          <grid row="1" column="6" row-span="12" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5e441" class="javax.swing.JList" binding="activeFunctionList" default-binding="true">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="1c607" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Cance&amp;l"/>
+        </properties>
+      </component>
+      <component id="6e426" class="javax.swing.JRadioButton" binding="makeNotActiveRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Make Not Act&amp;ive"/>
+        </properties>
+      </component>
+      <component id="a4d0" class="javax.swing.JRadioButton" binding="editCharacterRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Edit C&amp;haracter"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="actionsButtonGroup">
+      <member id="da7e7"/>
+      <member id="a9d93"/>
+      <member id="9927d"/>
+      <member id="e75a5"/>
+      <member id="60500"/>
+      <member id="6e426"/>
+      <member id="a4d0"/>
+    </group>
+  </buttonGroups>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="3552e"/>
+  </inspectionSuppressions>
+</form>
