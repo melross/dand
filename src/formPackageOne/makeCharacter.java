@@ -1,6 +1,8 @@
 package formPackageOne;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import java.awt.event.*;
 
 public class makeCharacter extends JDialog {
@@ -25,7 +27,7 @@ public class makeCharacter extends JDialog {
     private JCheckBox healthOverideCheckBox;
     private JLabel totalLeverDisplay;
     private String name;
-
+    private int sliderHealth = slider1.getValue();
     public makeCharacter() {
         setContentPane(contentPane);
         setModal(true);
@@ -57,6 +59,13 @@ public class makeCharacter extends JDialog {
                 onCancel();
             }
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+
+        slider1.addChangeListener(new ChangeListener() {
+            @Override
+            public void stateChanged(ChangeEvent e) {
+                updateSliderDisplay();
+            }
+        });
     }
 
 
@@ -73,19 +82,29 @@ public class makeCharacter extends JDialog {
         int cha = (Integer) charismaSpinner.getValue();
         int[] abilityScores = {str, dex, con, inte, wis, cha};
         int levelOne= (Integer) levelSpinner1.getValue();
-        Class  classOne = (Class) class1ComboBox.getSelectedItem();
-        Npc characterNameTextField = new Npc(name, classOne, levelOne, abilityScores);
+        Class  generic = new Class();
+        Npc characterNameTextField = new Npc(name, generic, levelOne, abilityScores);
+
+    }
+
+    public void stateChanged(ChangeEvent e) {
+
     }
 
     private void onCancel() {
 // add your code here if necessary
-        dispose();
+dispose();
     }
 
-    public static void main(String[] args) {
+
+    private void updateSliderDisplay(){
+        sliderHealth = slider1.getValue();
+        healthAmount.setText(""+sliderHealth);
+    }
+
+    public static void main() {
         makeCharacter dialog = new makeCharacter();
         dialog.pack();
         dialog.setVisible(true);
-        System.exit(0);
     }
 }

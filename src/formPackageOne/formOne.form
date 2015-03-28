@@ -60,6 +60,7 @@
               <forms/>
             </constraints>
             <properties>
+              <background color="-11973040"/>
               <font/>
               <text value="&amp;Make Active"/>
             </properties>
@@ -72,6 +73,7 @@
           <forms/>
         </constraints>
         <properties>
+          <background color="-11775661"/>
           <font/>
           <text value="&amp;New Character"/>
         </properties>

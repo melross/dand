@@ -40,9 +40,7 @@ public class formOne {
         npcTracker npcTrack = new npcTracker();
         newCharacterButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                String[] wontBeUsed = new String[1];
-                makeCharacter.main(wontBeUsed);
-                JDialog makeCharacter = new JDialog();
+                makeCharacter.main();
 
             }
         });

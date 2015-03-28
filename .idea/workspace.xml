@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705943c8-c596-443b-b0fd-2566c71064b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/Class.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/Class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/Npc.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/Npc.class" />
+      <change type="DELETED" beforePath="C:\Users\Mel\Documents\Code\dand\out\production\dmTest\formPackageOne\makeCharacter$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mel\Documents\Code\dand\out\production\dmTest\formPackageOne\makeCharacter$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mel\Documents\Code\dand\out\production\dmTest\formPackageOne\makeCharacter$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mel\Documents\Code\dand\out\production\dmTest\formPackageOne\makeCharacter$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mel\Documents\Code\dand\out\production\dmTest\formPackageOne\makeCharacter.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$1.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$10.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$11.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$11.class" />
@@ -22,17 +23,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$8.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$9.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/formOne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$1.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$2.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$3.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$4.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter.class" afterPath="$PROJECT_DIR$/out/production/dmTest/formPackageOne/makeCharacter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/Class.java" afterPath="$PROJECT_DIR$/src/formPackageOne/Class.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/Npc.java" afterPath="$PROJECT_DIR$/src/formPackageOne/Npc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/formOne.form" afterPath="$PROJECT_DIR$/src/formPackageOne/formOne.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/formOne.java" afterPath="$PROJECT_DIR$/src/formPackageOne/formOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/makeCharacter.form" afterPath="$PROJECT_DIR$/src/formPackageOne/makeCharacter.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/formPackageOne/makeCharacter.java" afterPath="$PROJECT_DIR$/src/formPackageOne/makeCharacter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dmTest.iws" />
@@ -77,14 +70,18 @@
         <entry file="file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
               <folding>
-                <element signature="e#1494#1622#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1698#1829#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1981#1982#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#1366#1497#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1623#1751#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1827#1958#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+                <element signature="e#2090#2251#0" expanded="true" />
+                <element signature="e#2250#2251#0" expanded="true" />
+                <element signature="e#2309#2310#0" expanded="true" />
+                <element signature="e#2364#2365#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,12 +117,12 @@
       <file leaf-file-name="formOne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/formPackageOne/formOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7561779">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.6721582">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="docComment;class#formOne#0" expanded="false" />
-                <element signature="e#1379#1639#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
+                <element signature="e#1379#1521#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,16 +132,6 @@
         <entry file="file://$PROJECT_DIR$/src/formPackageOne/formOne.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertyChangeListener.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/beans/PropertyChangeListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -169,13 +156,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/guiTest.java" />
-        <option value="$PROJECT_DIR$/src/formPackageOne/formOne.form" />
         <option value="$PROJECT_DIR$/src/formPackageOne/Class.java" />
         <option value="$PROJECT_DIR$/src/formPackageOne/Npc.java" />
-        <option value="$PROJECT_DIR$/src/formPackageOne/makeCharacter.form" />
-        <option value="$PROJECT_DIR$/src/formPackageOne/formOne.java" />
         <option value="$PROJECT_DIR$/src/formPackageOne/npcTracker.java" />
+        <option value="$PROJECT_DIR$/src/formPackageOne/formOne.form" />
+        <option value="$PROJECT_DIR$/src/formPackageOne/makeCharacter.form" />
         <option value="$PROJECT_DIR$/src/formPackageOne/makeCharacter.java" />
+        <option value="$PROJECT_DIR$/src/formPackageOne/formOne.java" />
       </list>
     </option>
   </component>
@@ -628,12 +615,19 @@
       <updated>1427509880814</updated>
       <workItem from="1427509890755" duration="215000" />
       <workItem from="1427510603808" duration="25299000" />
-      <workItem from="1427560565249" duration="6791000" />
+      <workItem from="1427560565249" duration="11464000" />
     </task>
+    <task id="LOCAL-00001" summary="Update 1.1">
+      <created>1427567384485</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1427567384485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32305000" />
+    <option name="totallyTimeSpent" value="36978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -676,15 +670,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 1.1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.java</url>
-          <line>33</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -715,12 +706,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
           <folding>
-            <element signature="e#1494#1622#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1698#1829#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#1366#1497#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1623#1751#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1827#1958#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#2090#2251#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -730,8 +725,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#517#518#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,8 +773,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#formOne#0" expanded="false" />
-            <element signature="e#1379#1639#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1379#1521#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -895,8 +890,8 @@
         <state vertical-scroll-proportion="0.39209226">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="false" />
+            <element signature="e#517#518#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -905,45 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formPackageOne/formOne.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#1494#1622#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1698#1829#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.form">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2125206">
-          <caret line="398" column="80" selection-start-line="398" selection-start-column="80" selection-end-line="398" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/formPackageOne/Npc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -963,14 +919,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/awt/event/WindowAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2042834">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formPackageOne/Npc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formPackageOne/formOne.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.form">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2125206">
+          <caret line="398" column="80" selection-start-line="398" selection-start-column="80" selection-end-line="398" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formPackageOne/makeCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding>
+            <element signature="e#1366#1497#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1623#1751#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1827#1958#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#2090#2251#0" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2309#2310#0" expanded="true" />
+            <element signature="e#2364#2365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/formPackageOne/formOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7561779">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.6721582">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="docComment;class#formOne#0" expanded="false" />
-            <element signature="e#1379#1639#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1379#1521#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
           </folding>
         </state>
       </provider>
